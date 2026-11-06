@@ -134,7 +134,7 @@ footer {
     <a href="#datascience"class="cache">Projets de data sciences</a>
     <a href="#contact">Contact</a>
     <button class="btn-toggle" onclick="changerMode()">
-    Mode nuit
+    Mode sombre
 </button>
 </nav>
 
@@ -273,10 +273,10 @@ btn.addEventListener("click", function () {
     function changerMode() {
     const bouton = document.querySelector(".btn-toggle");
 
-    if (bouton.textContent === "Mode nuit") {
-        bouton.textContent = "Mode jour";
+    if (bouton.textContent === "Mode sombre") {
+        bouton.textContent = "Mode clair";
     } else {
-        bouton.textContent = "Mode nuit";
+        bouton.textContent = "Mode sombre";
     }
 }
 </script>
